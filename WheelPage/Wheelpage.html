@@ -9,7 +9,22 @@
     <title>Document</title>
 </head>
 <body>
-  
+    <header id="navSami">
+
+    </header>
+    <main>
+        <background class="backgroundWheel"></background>
+        <canvas id="canvas" width='880' height='300'></canvas>
+        <script>
+            let theWheel = new Winwheel({
+    'canvasId' : 'canvas',
+    'numSegments' : 12,
+    'fillStyle' : '#ffc0cb',
+    'lineWidth' : 3
+});
+        </script>
+    </main>
+    <footer id="footSami"></footer>
   <script src="Wheelpage.js"></script>  
 </body>
 </html>
