@@ -1,12 +1,16 @@
+
 body {
     width: 100%;
     height: 87.6vh;
     margin:0;
 }
-main{
+.backgroundWheel{
     width:100vw;
-    height:100%;
-    background-image: url(/PictureShop/background/BackgroundPromoRoulette.jpg);
+    height:87.6vh;
+    background-image: url(/img/BackgroundPromoRoulette.jpg);
+    display: flex;
+    justify-content: center;
+    
 }
 
 #navSami {
@@ -14,8 +18,37 @@ main{
     width: 100%;
     height: 65px;
 }
+
+.wheel{
+    width: 600px;
+    height:600px;
+}
+.button {
+    display: block;
+    width: 250px;
+    margin: 40px auto;
+    cursor: pointer;
+}
+.button:hover {
+    opacity : 0.8 ;
+}
+
 #footSami{
     width: 100%;
     height: 65px;
     background-color: black;
+}  
+.blur {
+    animation: blur 10s;
+}
+@keyframes blur {
+    0% {
+        filter: blur(1.5px);
+    }
+    80%{
+        filter: blur(1.5px);
+    }
+    100%{
+        filter:blur(0px);
+    }
 }
