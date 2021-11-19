@@ -1,0 +1,66 @@
+body {
+    background-image: url(/PictureShop/background/backgroundAccueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.presentation-titre {
+    margin-bottom: 0px;
+    font-size: 2vw;
+}
+.ligne{
+    border: 1px solid rgb(0, 0, 0);
+    width:20%;
+}
+.p-presentation {
+    text-align: center;
+    margin: auto;
+    font-size: 2vw;
+    width: 33vw;
+}
+.produit {
+    text-align: center;
+}
+.parent-produit {
+    display: flex;
+}
+.figurine-zorro {
+    display:flex;
+    width: 36%;
+}
+.zorro {
+    border: solid;
+    border-width: 1px;
+    margin-right: 2vw;
+    width: 17vw;
+}
+.img-zorro {
+    width: 100%;
+    height: 100%;
+}
+.figurine-zorro h3 {
+    font-size: 2vw;
+}
+.description-figurine{
+    width: 50%;
+}
+.description-figurine p {
+    font-size: 2vw;
+}
+.parent-produit .ligne {
+    width: 0%;
+}
+.pull-mikasa {
+    display:flex;
+    width: 36%;
+}
+.img-mikasa {
+    border: solid;
+    background: white;
+    border-width: 1px;
+    margin-left: 1vw;
+}
