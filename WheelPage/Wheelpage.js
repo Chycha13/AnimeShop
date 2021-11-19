@@ -3,7 +3,7 @@
     const startButton = document.querySelector('.button');
     let deg = 0 ;
 
-
+// bouton wheel
 startButton.addEventListener('click', () => {
     startButton.style.pointerEvents = 'none';
     deg = Math.floor(5000 + Math.random() * 5000);
@@ -18,6 +18,8 @@ wheel.addEventListener('transitionend', () => {
     wheel.style.transition = 'none';
 const actualDeg = deg % 360;
 wheel.style.rotation = `rotate(${actualDeg}deg)`;
+startButton.style.pointerEvents = 'none';
+
 })
 
 })();

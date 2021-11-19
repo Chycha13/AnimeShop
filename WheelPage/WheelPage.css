@@ -6,38 +6,45 @@ body {
 }
 .backgroundWheel{
     width:100vw;
-    height:87.6vh;
-    background-image: url(/img/BackgroundPromoRoulette.jpg);
+    height:78.7vh;
+    background-image: url(./img/BackgroundPromoRoulette.jpg);
     display: flex;
     justify-content: center;
-    
-}
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+} 
 
 #navSami {
     background-color: black;
     width: 100%;
     height: 65px;
 }
-
+.titre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* Wheel of fortune */
 .wheel{
-    width: 600px;
-    height:600px;
+    width: 70%x;
+    height:70%;
+    display: flex;
+    justify-content: center;
+    
 }
 .button {
-    display: block;
-    width: 250px;
-    margin: 40px auto;
+    width: 10%;
+    height: 5%;
     cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 12px 12px 6px -25px rgba(255,192,178,.75), -12px -6px 6px 1px rgba(255,192,178,.75), 4px 4px 6px 1px rgba(255,192,178,.75);
+    background-color: lightgray;
 }
 .button:hover {
-    opacity : 0.8 ;
+    opacity: 0.9;
 }
 
-#footSami{
-    width: 100%;
-    height: 65px;
-    background-color: black;
-}  
+
 .blur {
     animation: blur 10s;
 }
@@ -52,3 +59,9 @@ body {
         filter:blur(0px);
     }
 }
+/*footer*/
+#footSami{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}  
