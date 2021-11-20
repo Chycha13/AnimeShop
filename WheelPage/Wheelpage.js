@@ -10,7 +10,6 @@ startButton.addEventListener('click', () => {
     wheel.style.transition = 'all 10s ease-out';
     wheel.style.transform = `rotate(${deg}deg)`;
     wheel.classList.add('blur');
-d
 });
 wheel.addEventListener('transitionend', () => {
     wheel.classList.remove('blur');
@@ -19,7 +18,21 @@ wheel.addEventListener('transitionend', () => {
 const actualDeg = deg % 360;
 wheel.style.rotation = `rotate(${actualDeg}deg)`;
 startButton.style.pointerEvents = 'none';
-
 })
 
 })();
+//pop up victoire
+
+function openModal () {
+    document.getElementById("popUpText").style.top ="0px" ;
+    document.getElementById("popUpLuffy").style;
+    setTimeout(function(){
+        popUpLuffy.style.display = 'block';
+    },500);
+   
+   setTimeout(function(){
+   popUpText.style.display = 'block';
+  
+},10500);
+}
+
