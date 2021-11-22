@@ -21,8 +21,11 @@ class colossalH {
         this.left = imageH.style.left = 700 + 'px';
         imageH.style.transform = 'rotate(180deg)';
         //console.log(nbs);
+        console.log(document.querySelector('.haut').clientHeight)
     }
 }
+var tata = document.querySelector('.haut');
+console.log(tata);
 
 class colossalB {
     constructor(nbs) {
@@ -45,7 +48,7 @@ function positionImgH() {
         newImgH.left = newImgH.imgH.style.left = 50 * j + 650 + 'px';
 
         arrayH.push(newImgH);
-        console.log(arrayH);
+        //console.log(arrayH);
     }
 
 }
@@ -83,7 +86,7 @@ function actionImg() {
     if (decalerB < -36) {
         var newColossaleBas = new colossalB;
         arrayB.push(newColossaleBas);
-        console.log(arrayB)
+        //console.log(arrayB)
     }
 }
 
@@ -92,64 +95,29 @@ function actionImg() {
 var livai = document.querySelector('.livai');
 var jeu = document.querySelector('.jeu');
 var espaceBasSaut = 0;
-//var espaceBasDescend = 0;
+    
+function tombe() {
+    espaceBasSaut -= 5;
+    livai.style.bottom = espaceBasSaut + 'px';
+    var valeur = parseInt(livai.style.bottom);
+    //console.log(valeur);
+    jeu.addEventListener('click', ()=> {
+        espaceBasSaut =  valeur + 200;
+        livai.style.transition = '0.3s';
+        // console.log(monte);
+        //livai.style.bottom = monte + 'px';
+      
+    }) 
+    if(espaceBasSaut <= -120) {
+        //console.log('saaaaaaalut meriem');
+    }
+}
+var saut = setInterval(tombe,30);
 
-
-/*function sautLivai() {
-    //clearInterval(descend);
-    var saut = setInterval(function() {
-        //clearInterval(descend);
-        espaceBasSaut += 10;
-        livai.style.bottom = espaceBasSaut + 'px';
-        if (espaceBasSaut > 80) {
-            clearInterval(saut);
-            var descend = setInterval(function() {
-                //console.log('salut c\'est moi')
-                var espaceBasDescend = espaceBasSaut -= 5;
-                livai.style.bottom = espaceBasDescend + 'px';
-                console.log(espaceBasDescend)
-                if (espaceBasSaut <= -150) {
-                    clearInterval(descend);
-                }
-            }, 30)
-        }
-
-    }, 30)
-
-
-}*/
-jeu.addEventListener('click', () => {
-    var saut = setInterval(function() {
-        clearInterval(descend);
-        espaceBasSaut += 10;
-        livai.style.bottom = espaceBasSaut + 'px';
-        if (espaceBasSaut > 100) {
-            clearInterval(saut);
-            var descend = setInterval(function() {
-
-                /*var espaceBasDescend =*/
-                espaceBasSaut -= 5;
-
-                livai.style.bottom = espaceBasSaut + 'px';
-                console.log(espaceBasSaut)
-                if (espaceBasSaut <= -150) {
-                    clearInterval(descend);
-                }
-            }, 30)
-        }
-
-    }, 30)
-})
-
-
+  
 
 positionImgH();
 positionImgB();
 //setInterval(actionImg, 30);
 //sautLivai();
 
-/*var descend = setInterval(function() {
-           console.log('salut c\'est moi')
-           espaceBasSaut -= 10;
-           livai.style.bottom = espaceBasDescend + 'px';
-   }, 30)*/
