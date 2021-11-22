@@ -33,6 +33,6 @@ function openModal () {
    setTimeout(function(){
    popUpText.style.display = 'block';
   
-},10500);
+},10700);
 }
 
