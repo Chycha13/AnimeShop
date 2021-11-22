@@ -1,0 +1,64 @@
+/*reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*variables*/
+
+
+/*css de base*/
+
+.jeu {
+    background-image: url(imagesJeux/paysage\ snk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_haut {
+    position: relative;
+    display: flex;
+}
+
+.img_bas {
+    position: relative;
+    display: flex;
+    padding-top: 8%;
+}
+
+.haut {
+    position: relative;
+    transform: rotate(180deg);
+    width: 200px;
+    margin-right: 60px;
+}
+
+.bas {
+    position: relative;
+    width: 200px;
+    margin-right: 60px;
+}
+
+.livai {
+    width: 85px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*css de base*/
+
+
+/*css de base*/
+
+
+/*css de base*/
+
+
+/*css de base*/
