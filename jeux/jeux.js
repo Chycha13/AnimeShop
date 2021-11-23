@@ -21,11 +21,12 @@ class colossalH {
         this.left = imageH.style.left = 700 + 'px';
         imageH.style.transform = 'rotate(180deg)';
         //console.log(nbs);
-        console.log(document.querySelector('.haut').clientHeight)
     }
-}
+}   
+;
+
 var tata = document.querySelector('.haut');
-console.log(tata);
+//console.log(tata);
 
 class colossalB {
     constructor(nbs) {
@@ -45,7 +46,7 @@ function positionImgH() {
 
         var number = j;
         var newImgH = new colossalH(number);
-        newImgH.left = newImgH.imgH.style.left = 50 * j + 650 + 'px';
+        newImgH.left = newImgH.imgH.style.left = 100 * j + 650 + 'px';
 
         arrayH.push(newImgH);
         //console.log(arrayH);
@@ -58,7 +59,7 @@ function positionImgB() {
 
         var nbs = i;
         var newImgB = new colossalB(nbs);
-        newImgB.left = newImgB.imgB.style.left = 50 * i + 650 + 'px';
+        newImgB.left = newImgB.imgB.style.left = 100 * i + 650 + 'px';
         //console.log(arrayB)
         arrayB.push(newImgB);
     }
@@ -72,9 +73,10 @@ function actionImg() {
 
         var bougerH = decalerH -= 4;
         var bougerB = decalerB -= 4;
-
+        console.log(decalerH)
         //console.log(decaler)
         divH.style.left = bougerH + 'px';
+        //console.log(gaucheHaut)
         divB.style.left = bougerB + 'px';
     }
     if (decalerH < -36) {
@@ -86,9 +88,13 @@ function actionImg() {
     if (decalerB < -36) {
         var newColossaleBas = new colossalB;
         arrayB.push(newColossaleBas);
-        //console.log(arrayB)
+    }
+    if(decalerH < -630 && espaceBasSaut >= 175 || decalerH < -630 && espaceBasSaut <= -155) {
+        console.log(espaceBasSaut)
+        gameOver()
     }
 }
+
 
 //livai
 
@@ -100,24 +106,20 @@ function tombe() {
     espaceBasSaut -= 5;
     livai.style.bottom = espaceBasSaut + 'px';
     var valeur = parseInt(livai.style.bottom);
-    //console.log(valeur);
     jeu.addEventListener('click', ()=> {
         espaceBasSaut =  valeur + 200;
         livai.style.transition = '0.3s';
-        // console.log(monte);
-        //livai.style.bottom = monte + 'px';
-      
     }) 
-    if(espaceBasSaut <= -120) {
-        //console.log('saaaaaaalut meriem');
-    }
 }
-var saut = setInterval(tombe,30);
 
   
-
+var obstacleMoove = setInterval(actionImg, 40);
 positionImgH();
 positionImgB();
-//setInterval(actionImg, 30);
-//sautLivai();
 
+var saut = setInterval(tombe,30);
+
+function gameOver() {
+    clearInterval(obstacleMoove);
+    clearInterval(saut);
+}
