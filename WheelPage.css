@@ -6,7 +6,7 @@ body {
 .backgroundWheel{
     width:100vw;
     height: 87.6vh;
-    background-image: url(./img/BackgroundPromoRoulette.jpg);
+    background-image: url(./PictureShop/img/BackgroundPromoRoulette.jpg);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
