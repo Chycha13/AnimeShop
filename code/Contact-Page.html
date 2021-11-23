@@ -27,15 +27,16 @@
         <input type="text" class="NameText" placeholder="Entrer votre Nom" required>
         <input type="text" class="EmailText" placeholder="Entrer une email valide" required>
         <textarea name="" id="MessageCase" cols="30" rows="10" placeholder="Entrer votre messsage"></textarea>
-         <button id="ButtonSend" onclick="openModal('MessageCase')" >Envoyer</button>
+         <button id="ButtonSend" onclick="openModal()" >Envoyer</button>
 
          <div id="WinContact">
+             <button id="ButtonCloseCase" onclick="closeModal()" >&#10060;</button>
              <span id="MessageInside"></span>
          </div>
          
         <div class="ContactLogo">
             <a class="Logo" href="">
-            <img src="/pictures/ContactLogo/logo-de-lapplication-facebook.png" alt="" width="50%">
+            <img src="/pictures/ContactLogo/logo-de-lapplication-facebook .png" alt="" width="50%">
             </a>
             <a class="Logo" href="">
             <img src="/pictures/ContactLogo/instagram.png" alt="" width="50%">
@@ -61,6 +62,25 @@
 </main>
 </body>
 <footer>
-    <div class="FooterBarre"></div>
+    <div class="FooterBarre">
+        <div class="PaymentLogo">
+        <a href="#" class="MasterFooter"><img src="/pictures/payment icons/1495815236-jd07_84584.png" alt=""></a>
+        <a href="#" class="PaypalFooter"><img src="/pictures/payment icons/1495815261-jd08_84586.png" alt=""></a>
+        <a href="#" class="lelelFooter"><img src="/pictures/payment icons/paypal_payment_method_icon_142749.png" alt=""></a>
+        </div>
+        <div class="ConditionFooter">
+            <a class="FooterTherms" href="#">confidentialité et cookies</a>
+            <hr>
+            <a class="FooterTherms" href="#">condition genéral</a>
+            <hr>
+            <a class="FooterTherms" href="#">accessibilité</a>
+        </div>
+        <div class="LogoRes">
+            <a href="#"><img src="/pictures/ContactLogo/white insta.png" alt=""></a>
+            <a href="#"><img src="/pictures/ContactLogo/whitetwitter.png" alt=""></a>
+            <a href="#"><img src="/pictures/ContactLogo/facebookwhite.png" alt="" width="47px"></a>
+            <a href="#"><img src="/pictures/ContactLogo/linkedin White.png" alt="" width="48px"></a>
+        </div>
+    </div>
 </footer>
 </html>

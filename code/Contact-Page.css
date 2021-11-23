@@ -1,6 +1,10 @@
 /*nav barre*/
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .HTMLContact {
     height: 100vh;
+    
 }
 body {
     margin: 0;
@@ -83,6 +87,7 @@ header {
     outline: none;
 }
 
+
 #ButtonSend {
     background: #585858;
     color: white;
@@ -91,6 +96,12 @@ header {
     height: 40px;
     border-radius: 30px;
     cursor: pointer;
+}
+#ButtonCloseCase {
+cursor: pointer;
+border: none;
+background: none;
+font-size: large;
 }
 #WinContact {
     display: flex;
@@ -111,6 +122,7 @@ header {
     color: white;
     font-size: x-large;
 }
+
 .InfoList {
     display: flex;
     flex-direction: column;
@@ -141,8 +153,32 @@ header {
 
 
 /*end body*/
+
 /*footer barre*/
 .FooterBarre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: black;
-    height: 65px;
+    height: 61px;
+}
+.PaymentLogo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.ConditionFooter {
+    display: flex;
+    width: 430px;
+    justify-content: space-around;
+}
+.FooterTherms {
+    color: white;
+    text-decoration: none;
+}
+.LogoRes {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
 }
