@@ -8,7 +8,7 @@ var body = document.body;
 var arrayB = [];
 var arrayH = [];
 var toto = 300;
-
+var livai = document.querySelector('.livai');
 
 class colossalH {
     constructor(number) {
@@ -68,6 +68,7 @@ function positionImgB() {
 
 //Obstacles en mouvement
 
+
 function actionImg() {
     if (toto > 200) {
 
@@ -79,13 +80,13 @@ function actionImg() {
         //console.log(gaucheHaut)
         divB.style.left = bougerB + 'px';
     }
-    if (decalerH < -36) {
+    if (decalerH < -236) {
         var newColossaleHaut = new colossalH;
         arrayH.push(newColossaleHaut);
 
 
     }
-    if (decalerB < -36) {
+    if (decalerB < -236) {
         var newColossaleBas = new colossalB;
         arrayB.push(newColossaleBas);
     }
@@ -98,7 +99,7 @@ function actionImg() {
 
 //livai
 
-var livai = document.querySelector('.livai');
+
 var jeu = document.querySelector('.jeu');
 var espaceBasSaut = 0;
     

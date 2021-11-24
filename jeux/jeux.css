@@ -49,8 +49,9 @@
     width: 85px;
     position: relative;
     z-index: 1;
-    /*left:700px;*:
-    /*bottom: 15px;*/
+    left: 0;
+    bottom: 0;
+    
 }
 
 
