@@ -5,7 +5,7 @@ body {
 }
 .backgroundWheel{
     width:100vw;
-    height: 87.6vh;
+    height: 100vh;
     background-image: url(./PictureShop/img/BackgroundPromoRoulette.jpg);
     background-repeat: no-repeat;
     display: flex;
@@ -107,7 +107,7 @@ body {
 }
 #popUpLuffy{
     height:50%;
-    position: absolute;
+    position: fixed;
     left:1300px;
     margin-top: 25%;
     display: none;   
