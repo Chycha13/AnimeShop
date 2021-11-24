@@ -1,13 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100vw;
+}
+
+.LeftNav, .RightNav {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.ButtonShop, .ButtonHome , .ButtonContact, .ButtonMiniJeux, .ButtonRoulette{
+    display: flex;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LogoTop {
+    display: flex;
+    height: 65px;
+}
+
+.CartNav {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}
+
+.ButtonShop:hover, .ButtonHome:hover, .ButtonContact:hover, .ButtonMiniJeux:hover, .ButtonRoulette:hover, .CartNav:hover {
+    transform: scale(1.2);
+}
 .BodyWheelPage {
     margin:0;
 }
 .backgroundWheel{
-<<<<<<< HEAD
-    width:100vw;
-=======
-    width: 100vw;
->>>>>>> ad7fc093ce7b58c5ae2c55da0589fc4dd730baf3
-    height: 100vh;
+    width: 99.5vw;
+    height: 97vh;
     background-image: url(./PictureShop/img/BackgroundPromoRoulette.jpg);
     background-repeat: no-repeat;
     display: flex;
@@ -110,11 +142,8 @@
 #popUpLuffy{
     height:50%;
     position: fixed;
-<<<<<<< HEAD
     left:1300px;
-=======
     left:1200px;
->>>>>>> ad7fc093ce7b58c5ae2c55da0589fc4dd730baf3
     margin-top: 25%;
     display: none;   
 }
@@ -125,9 +154,32 @@
 #luffy{
     height:60%;
 }
-/*footer*/
-#footSami{
-    width: 100%;
-    height: 65px;
+/*footer barre*/
+.FooterBarre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: black;
-}  
+    height: 61px;
+}
+.PaymentLogo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.ConditionFooter {
+    display: flex;
+    width: 430px;
+    justify-content: space-around;
+}
+.FooterTherms {
+    color: white;
+    text-decoration: none;
+}
+.LogoRes {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
