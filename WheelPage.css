@@ -1,18 +1,20 @@
-body {
-    width: 100vw;
-    height: 100vh;
-   margin:0;
+.BodyWheelPage {
+    margin:0;
 }
 .backgroundWheel{
+<<<<<<< HEAD
     width:100vw;
+=======
+    width: 100vw;
+>>>>>>> ad7fc093ce7b58c5ae2c55da0589fc4dd730baf3
     height: 100vh;
     background-image: url(./PictureShop/img/BackgroundPromoRoulette.jpg);
     background-repeat: no-repeat;
     display: flex;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 } 
 
 #navSami {
@@ -30,7 +32,7 @@ body {
 .roue{
     display: flex;
     width:30%;
-    height: 70%;
+    height: 50%;
     justify-content: center;
 }
 .pointer{
@@ -100,15 +102,19 @@ body {
 /*pop up */
 #popUpText{
     width:18%;
-    position: absolute;
-    left:1520px;
+    position: fixed;
+    left:1320px;
     margin-top: 15%;
     display: none;
 }
 #popUpLuffy{
     height:50%;
     position: fixed;
+<<<<<<< HEAD
     left:1300px;
+=======
+    left:1200px;
+>>>>>>> ad7fc093ce7b58c5ae2c55da0589fc4dd730baf3
     margin-top: 25%;
     display: none;   
 }
