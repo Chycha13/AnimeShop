@@ -254,13 +254,13 @@ header {
 .Masque:hover{
   transform: scale(0.9);
 }
+
 .Masque .prix{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 1%;
 }
-
 
 /* Carré Figurine One Piece SAL */
 .FigurineAL{
@@ -440,16 +440,24 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.monopolymha:hover{
+  transform: scale(0.9);
+}
+
 .monopolymha .mono{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .monopolymha .prix{
   display: flex;
   justify-content: flex-end;
 }
+
 .monopolymha .mmha{
   margin: 1%;
 }
@@ -462,15 +470,23 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.porteclemha:hover{
+  transform: scale(0.9);
+}
+
 .porteclemha .porte {
   display: flex;
   flex-direction: column;
 }
+
 .porteclemha .prix {
   display: flex;
   justify-content: flex-end;
 }
+
 .porteclemha .pcmha {
   width: 35%;
   margin: 2%;
@@ -484,11 +500,18 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.tpsmha:hover{
+  transform: scale(0.9);
+}
+
 .tpsmha .prix {
   display: flex;
   justify-content: flex-end;
 }
+
 .tpsmha .tmha{
   width: 45%;
   margin: 1%;
@@ -503,16 +526,24 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.figurinedeku:hover{
+  transform: scale(0.9);
+}
+
 .figurinedeku .fd {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .figurinedeku .prix {
   display: flex;
   justify-content: flex-end;
 }
+
 .figurinedeku .fdmha{
   width: 50%;
   margin: 1%;
@@ -526,11 +557,18 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.sadmha:hover{
+  transform: scale(0.9);
+}
+
 .sadmha .prix{
   display: flex;
   justify-content: flex-end;
 }
+
 .sadmha .smha{
   width: 40%;
   margin: 1%;
@@ -544,16 +582,24 @@ header {
   background: linear-gradient(300deg, rgba(255,255,255,0.6474964985994398) 6%, rgba(238,123,163,0.5214460784313726) 27%, rgba(238,123,163,1) 83%);
   border: 1px solid black;
   display: flex;
+  cursor: pointer;
 }
+
+.popmha:hover{
+  transform: scale(0.9);
+}
+
 .popmha .pop {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .popmha .prix {
   display: flex;
   justify-content: flex-end;
 }
+
 .popmha .pmha{
   width: 25%;
 }
@@ -566,17 +612,25 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.tsmha:hover{
+  transform: scale(0.9);
+}
+
 .tsmha .ts{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .tsmha .prix {
   display: flex;
   align-items: flex-end;
   margin-left: 90%;
 }
+
 .tsmha .temha{
   width: 25%;
   margin: 1%;
@@ -591,17 +645,25 @@ header {
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.figurineam:hover{
+  transform: scale(0.9);
+}
+
 .figurineam .fam {
   width: 39%;
   margin: 1%;
   margin-top: 1%;
 }
+
 .figurineam .fm {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .figurineam .prix {
   display: flex;
   align-items: flex-end;
@@ -615,13 +677,21 @@ header {
   background: linear-gradient(300deg, rgba(255,255,255,0.6474964985994398) 6%, rgba(238,123,163,0.5214460784313726) 27%, rgba(238,123,163,1) 83%);
   border: 1px solid black;
   text-align: center;
+  cursor: pointer;
 }
+
+.pcdekumha:hover{
+  transform: scale(0.9);
+}
+
 .pcdekumha .pcdeku{
   width: 35%;
 }
+
 .pcdekumha .pcd h2{
   margin-bottom: 1%;
 }
+
 .pcdekumha .prix{
   display: flex;
   justify-content: flex-end;
@@ -636,18 +706,27 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
+
+.figurineshoto:hover{
+  transform: scale(0.9);
+}
+
 .figurineshoto .fsmha {
   width: 39%;
   margin: 1%;
 }
+
 .figurineshoto .fs{
   display: flex;
   flex-direction: column;
 }
+
 .figurineshoto .fs h2 {
   margin-bottom: 1%;
 }
+
 .figurineshoto .prix {
   display: flex;
   justify-content: flex-end;
@@ -661,10 +740,17 @@ header {
   background: linear-gradient(300deg, rgba(255,255,255,0.6474964985994398) 6%, rgba(238,123,163,0.5214460784313726) 27%, rgba(238,123,163,1) 83%);
   border: 1px solid black;
   text-align: center;
+  cursor: pointer;
 }
+
+.sacdekumha:hover{
+  transform: scale(0.9);
+}
+
 .sacdekumha .sdmha{
   width: 50%;
 }
+
 .sacdekumha .prix{
   display: flex;
   justify-content: flex-end;
@@ -678,21 +764,30 @@ border: 1px solid black;
 display: flex;
 align-items: center;
 text-align: center;
+cursor: pointer;
 }
+
+.tassemha:hover{
+  transform: scale(0.9);
+}
+
 .tassemha .tmha{
   width: 30%;
   height: 75%; 
   margin-top: 6%;
 }
+
 .tassemha .tasse {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1px;
 }
+
 .tassemha .tasse h2 {
   margin-bottom: 1%;
 }
+
 .tassemha .prix {
   display: flex;
   justify-content: flex-end;
@@ -733,10 +828,17 @@ text-align: center;
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
+
+.coquelivai:hover{
+  transform: scale(0.9);
+}
+
 .coquelivai .prix {
   text-align: end;
 }
+
 .coquelivai .cl {
   width: 50%;
   height: 75%;
@@ -750,10 +852,17 @@ text-align: center;
   display: flex;
   align-items: center;
   border: 1px solid black;
+  cursor: pointer;
 }
+
+.erenkey:hover{
+  transform: scale(0.9);
+}
+
 .erenkey .prix{
   text-align: end;
 }
+
 .erenkey .ek {
   width: 50%;
   height: 50%;
@@ -768,7 +877,13 @@ text-align: center;
   border: 1px solid black;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
+
+.eplorationsweat:hover{
+  transform: scale(0.9);
+}
+
 .eplorationsweat .prix {
   display: flex;
   justify-content: flex-end;
@@ -786,22 +901,29 @@ text-align: center;
   background: linear-gradient(315deg, rgba(204,204,0,0.3) 34%, rgba(255,255,255,0.95) 44%);
   border: 1px solid black;
   display: flex;
+  cursor: pointer;
 }
+
+.coquemikasa:hover{
+  transform: scale(0.9);
+}
+
 .coquemikasa .cmk{
   display: flex;
   flex-direction: column;
   text-align: center;
   margin:1%
 }
+
 .coquemikasa .prix{
   display: flex;
   justify-content: flex-end;
 }
+
 .coquemikasa .cm {
   width: 50%;
   height: 75%;
 }
-
 
 /*Section Big Figurine  L'attaque des titan*/
 .bfigurine {
@@ -810,7 +932,13 @@ text-align: center;
   background: linear-gradient(390deg, rgba(204,204,0,0.3) 34%, rgba(255,255,255,0.95) 44%);
   border: 1px solid black;
   text-align: center;
+  cursor: pointer;
 }
+
+.bfigurine:hover{
+  transform: scale(0.9);
+}
+
 .bfigurine .prix {
   display: flex;
   justify-content: flex-end;
@@ -825,10 +953,17 @@ text-align: center;
   flex-direction: row-reverse;
   text-align: center;
   border: 1px solid black;
+  cursor: pointer;
 }
+
+.mikasasweat:hover{
+  transform: scale(0.9);
+}
+
 .mikasasweat .prix{
   text-align: end;
 }
+
 .mikasasweat .mks {
   width: 50%;
 }
@@ -842,11 +977,18 @@ text-align: center;
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
+
+.erensweat:hover{
+  transform: scale(0.9);
+}
+
 .erensweat .ers{
   width: 50%;
   height: 75%;
 }
+
 .erensweat .prix{
   display: flex;
   justify-content: end;
@@ -861,11 +1003,18 @@ text-align: center;
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
+
+.pclivai:hover{
+  transform: scale(0.9);
+}
+
 .pclivai .prix {
   display: flex;
   justify-content: end;
 }
+
 .pclivai .pc {
   width: 25%;
   height: 50%;
@@ -878,7 +1027,13 @@ text-align: center;
   background: linear-gradient(360deg, rgba(204,204,0,0.3) 34%, rgba(255,255,255,0.95) 44%);
   border: 1px solid black;
   text-align: center;
+  cursor: pointer;
 }
+
+.capeexploration:hover{
+  transform: scale(0.9);
+}
+
 .capeexploration .prix{
   display: flex;
   justify-content: end;
@@ -891,11 +1046,17 @@ text-align: center;
   background: linear-gradient(240deg, rgba(204,204,0,0.3) 34%, rgba(255,255,255,0.95) 44%);
   border: 1px solid black;
   text-align: center;
+  cursor: pointer;
+}
+
+.sweatlivai:hover {
+  transform: scale(0.9);
 }
 .sweatlivai .prix {
   display: flex;
   justify-content: end;
 }
+
 .sweatlivai .sl {
   width: 50%;
 }
@@ -909,6 +1070,11 @@ text-align: center;
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
+}
+
+.tslivai:hover{
+  transform: scale(0.9);
 }
 .tslivai .prix {
   display: flex;
