@@ -12,7 +12,7 @@
     <div class="LeftNav">
        <a href="#" class="ButtonHome"><strong>Acceuil</strong></a>
        <a href="#" class="ButtonShop"><strong>Magasin</strong></a>
-       <a href="#" class="ButtonContact"><strong>Contact</strong></a>
+       <a href="Contact-Page.html" class="ButtonContact"><strong>Contact</strong></a>
     </div>
     <img src="./PictureShop/contact-pictures/LogoTop.png" alt="" class="LogoTop">
      <div class="RightNav">
@@ -26,28 +26,13 @@
         <div class="ContactCase">
         <input type="text" class="NameText" placeholder="Entrer votre Nom" required>
         <input type="text" class="EmailText" placeholder="Entrer une email valide" required>
-        <textarea name="" id="MessageCase" cols="30" rows="10" placeholder="Entrer votre messsage"></textarea>
-         <button id="ButtonSend" onclick="openModal()" >Envoyer</button>
+        <textarea name="" id="MessageCase" cols="30" rows="10" maxlength="53" minlength="3" placeholder="Entrer votre messsage"></textarea>
+         <button id="ButtonSend" onclick="openModal()">Envoyer</button>
 
          <div id="WinContact">
              <button id="ButtonCloseCase" onclick="closeModal()" >&#10060;</button>
              <span id="MessageInside"></span>
          </div>
-         
-        <div class="ContactLogo">
-            <a class="Logo" href="">
-            <img src="./PictureShop/contact-pictures/ContactLogo/logo-de-lapplication-facebook .png" alt="" width="50%">
-            </a>
-            <a class="Logo" href="">
-            <img src="./PictureShop/contact-pictures/ContactLogo/instagram-black.png" alt="" width="50%">
-            </a>
-            <a class="Logo" href="">
-            <img src="./PictureShop/contact-pictures/ContactLogo/linkedin.png" alt="" width="50%">
-            </a>
-            <a class="Logo" href="">
-            <img src="./PictureShop/contact-pictures/ContactLogo/twitter-sign.png" alt="" width="50%">
-            </a>
-        </div>
     </div>
     <div class="InfoList">
         <h1 class="Call">Appelez nous</h1>
