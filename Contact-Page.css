@@ -51,7 +51,7 @@ header {
 .BackgroundContact {
     display: flex;
     align-items: flex-start;
-    background-image: url(/pictures/helpnew.jpg);
+    background-image: url(./PictureShop/contact-pictures/helpnew.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -179,6 +179,7 @@ font-size: large;
 }
 .LogoRes {
     display: flex;
-    width: 300px;
+    align-items: center;
+    width: 400px;
     justify-content: space-around;
 }
