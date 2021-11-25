@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jeu {
+    background-image: url(photoJeu/paysageSnk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 99vh;
+    overflow: hidden;
+}
+
+.haut {
+    display: flex;
+}
+
+.bas {
+    display: flex;
+}
+
+.test {
+    width: 100vw;
+    height: 180px;
+}
+
+.colossalH {
+    width: 336px;
+    position: relative;
+    transform: rotateX(180deg);
+}
+
+.colossalB {
+    width: 336px;
+    position: relative;
+}
+
+.livai {
+    width: 80px;
+    position: relative;
+    left: 18px;
+    z-index: 1;
+}
