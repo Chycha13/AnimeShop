@@ -29,7 +29,7 @@ function active() {
 function rougeCreate() {
 
     var imgH = document.createElement('img');
-    imgH.src = 'photoJeu/colossal1.png';
+    imgH.src = 'PictureShop/photoJeu/colossal1.png';
     var appendArray = arrayH.push(imgH);
     var colossalH = imgH.classList.add('colossalH');
     haut.appendChild(imgH);
@@ -52,7 +52,7 @@ function rougeCreate() {
 function bleuCreate() {
 
     var imgB = document.createElement('img');
-    imgB.src = 'photoJeu/colossal1.png';
+    imgB.src = 'PictureShop/photoJeu/colossal1.png';
     var appendArray = arrayB.push(imgB);
     var colossalB = imgB.classList.add('colossalB');
     bas.appendChild(imgB);
