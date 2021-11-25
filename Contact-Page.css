@@ -23,7 +23,6 @@ header {
     width: 30%;
 
 }
-
 .ButtonShop, .ButtonHome , .ButtonContact, .ButtonMiniJeux, .ButtonRoulette{
     display: flex;
     align-self: center;
@@ -31,7 +30,6 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
-
 .LogoTop {
     display: flex;
     height: 65px;

@@ -1,14 +1,4 @@
 /*nav barre*/
-
-.HTMLContact {
-    height: 100vh;
-    
-}
-body {
-    margin: 0;
-    height: 100%;
-}
-
 header {
     display: flex;
     justify-content: space-around;
@@ -21,7 +11,10 @@ header {
     width: 30%;
 
 }
-
+.LogoTop {
+    display: flex;
+    height: 65px;
+}
 .ButtonShop, .ButtonHome , .ButtonContact, .ButtonMiniJeux, .ButtonRoulette{
     display: flex;
     align-self: center;
@@ -29,7 +22,6 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
-
 .LogoTop .notifications:after {
     display: flex;
     height: 65px;
@@ -46,21 +38,27 @@ header {
 }
 
 /*fin barre nav*/
-body {
-    background-image: url(/PictureShop/background/backgroundAccueil.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.presentation {
+.BodyAcceuil {
     display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-image: url(./PictureShop/background/backgroundAccueil.jpg);
+    background-size: cover;
     justify-content: center;
-    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}
+#Acceuil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .presentation-titre {
-    margin-bottom: 0px;
+    display: flex;
+    margin: 0;
     font-size: 2vw;
 }
 .ligne{
+    display: flex;
     border: 1px solid rgb(0, 0, 0);
     width:20%;
 }
@@ -70,9 +68,13 @@ body {
     font-size: 2vw;
     width: 33vw;
 }
-.produit h1 {
+.produit {
     text-align: center;
-    font-size: 4vw;
+    margin: 0;
+    font-size: 30px;
+}
+.h1Titre {
+    margin: 0;
 }
 .parent-produit {
     display: flex;
@@ -83,8 +85,8 @@ body {
 }
 
 .img-zorro {
-    height: 100%;
-    width: 17vw;
+    height: 40vh;
+    width:20vw;
     border: solid;
     border-width: 1px;
     margin-right: 2vw;
@@ -95,8 +97,8 @@ body {
 .description-figurine{
     width: 50%;
 }
-.description-figurine p {
-    font-size: 2vw;
+.description-figurine  {
+    font-size: 1.5vw;
 }
 .parent-produit .ligne {
     width: 0%;
@@ -120,10 +122,11 @@ body {
     border: solid;
     background: white;
     border-width: 1px;
+    margin-top: 70px;
     margin-left: 1vw;
     margin-right: 2vw;
-    height: 80%;
-    width: 17vw;
+    height: 70%;
+    width: 13vw;
 }
 .bob {
     display: flex;
@@ -144,14 +147,16 @@ body {
     border: solid;
     background: white;
     border-width: 1px;
+    margin-top: 70px;
     margin-left: 1vw;
     margin-right: 2vw;
     height: 60%;
-    width: 17vw;
+    width: 14vw;
 }
 /*footer barre*/
 .FooterBarre {
     display: flex;
+    margin-top: 2px;
     justify-content: space-around;
     align-items: center;
     background-color: black;

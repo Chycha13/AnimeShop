@@ -38,8 +38,8 @@ header {
     margin:0;
 }
 .backgroundWheel{
-    width: 99.5vw;
-    height: 97vh;
+    width: 100vw;
+    height: 86.15vh;
     background-image: url(./PictureShop/img/BackgroundPromoRoulette.jpg);
     background-repeat: no-repeat;
     display: flex;
@@ -63,6 +63,7 @@ header {
 }
 .roue{
     display: flex;
+    margin-bottom: 100px;
     width:30%;
     height: 50%;
     justify-content: center;
@@ -135,7 +136,7 @@ header {
 #popUpText{
     width:18%;
     position: fixed;
-    left:1320px;
+    left:1520px;
     margin-top: 15%;
     display: none;
 }
@@ -143,7 +144,6 @@ header {
     height:50%;
     position: fixed;
     left:1300px;
-    left:1200px;
     margin-top: 25%;
     display: none;   
 }
