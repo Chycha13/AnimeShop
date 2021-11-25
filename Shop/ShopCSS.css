@@ -9,6 +9,12 @@ header {
   background-color: black;
   width: 100%;
 }
+#NotifCart {
+  display: flex;
+  width: 367px;
+  height: 50px;
+  background-color: red;
+}
 
 .LeftNav, .RightNav {
   display: flex;
