@@ -1,67 +1,45 @@
-/*reset*/
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-/*variables*/
-
-
-/*css de base*/
-
-.jeu {
-    background-image: url(imagesJeux/paysage\ snk.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+.jeu{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-.img_haut {
-    position: relative;
+.haut{
     display: flex;
 }
 
-.img_bas {
-    position: relative;
+.bas{
     display: flex;
-    padding-top: 8%;
 }
 
-.haut {
-    position: relative;
-    transform: rotate(180deg);
-    width: 200px;
-    margin-right: 60px;
+.test{
+    width: 100vw;
+    height: 180px;
 }
 
-.bas {
+.bleu{
+    background-color: blue;
+    width: 50px;
+    padding: 50px;
     position: relative;
-    width: 200px;
-    margin-right: 60px;
-}
-
-.livai {
-    width: 85px;
-    position: relative;
-    z-index: 1;
-    left: 0;
-    bottom: 0;
     
 }
 
 
-/*css de base*/
+.rouge{
+    background-color: red;
+    width: 50px;
+    padding: 50px;
+    position: relative;
+    
+}
 
-
-/*css de base*/
-
-
-/*css de base*/
-
-
-/*css de base*/
+.jaune{
+    background-color: yellow;
+    width: 20px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
