@@ -1,0 +1,45 @@
+.jeu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.haut{
+    display: flex;
+}
+
+.bas{
+    display: flex;
+}
+
+.test{
+    width: 100vw;
+    height: 180px;
+}
+
+.bleu{
+    background-color: blue;
+    width: 50px;
+    padding: 50px;
+    position: relative;
+    
+}
+
+
+.rouge{
+    background-color: red;
+    width: 50px;
+    padding: 50px;
+    position: relative;
+    
+}
+
+.jaune{
+    background-color: yellow;
+    width: 20px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
